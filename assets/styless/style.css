@@ -146,10 +146,14 @@ select{
     width: 175px;
     height: 55px;
     margin-top: 2.5px;
-    background-color: #b61010;
+    background-color: #e41414;
     border: none;
     border-radius: 5px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+}
+
+#btn-submain:hover{
+    background-color: #b61010;
 }
