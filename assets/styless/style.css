@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0px;
+}
+
+#container{
+    background-image: url('background.jpg');
+    height: 750px;
+}
+
+#main-body{
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 750px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+#logo{
+    width: 150px;
+}
+
+select{
+    background-color: rgba(0, 0, 0, 0.507);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 10px 25px;
+    margin-right: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn-enter{
+    background-color: #e41414;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#btn-enter:hover{
+    background-color: #b61010;
+}
+
+#main{
+    width: 70%;
+    margin: 180px auto;
+    text-align: center;
+    text-shadow: 10px;
+}
+
+#sub-main{
+    width: 70%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#email{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    --background-color: #b61010;
+}
+
+.div-info{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info{
+    margin-left: 100px;
+}
+
+.separator{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 10px;;
+}
+
+#tv{
+    width: 400px;
+    padding-right: 50px;
+}
+
+#devices{
+    width: 500px;
+}
+
+#infantil{
+    width: 500px;
+}
+
+#download{
+    width: 600px;
+}
+
+.title{
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitle{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.subtitle-submain{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#input-email{
+    background-color: rgba(0, 0, 0, 0.418);
+    margin-top: 4px;
+    margin-right: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(192, 37, 37);
+    color: white;
+}
+
+#btn-submain{
+    width: 175px;
+    height: 55px;
+    margin-top: 2.5px;
+    background-color: #b61010;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
